@@ -13,6 +13,7 @@ import java.time.LocalDate;
 @NamedQueries({
         @NamedQuery(name = "autores.All", query = "SELECT a FROM Autor a"),
 })
+
 public class Autor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
